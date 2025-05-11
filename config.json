@@ -1,0 +1,17 @@
+{
+    "hot_map0":["Keycode.LEFT_CONTROL, Keycode.F1","",""],
+    "hot_map_type0":["keyboard","mapp","mapm"],
+    "led0":[255,0,0],
+
+    "hot_map1":["Keycode.LEFT_CONTROL, Keycode.F2","",""],
+    "hot_map_type1":["keyboard","mapp","mapm"],
+    "led1":[0,255,0],
+
+    "hot_map2":["Keycode.LEFT_CONTROL, Keycode.F3","",""],
+    "hot_map_type2":["keyboard","mapp","mapm"],
+    "led2":[0,0,255],
+
+    "hot_map3":["Keycode.LEFT_CONTROL, Keycode.F4","",""],
+    "hot_map_type3":["keyboard","mapp","mapm"],
+    "led3":[255,255,255]
+}
