@@ -117,14 +117,11 @@ def load_json():#фнкция для загрузки json файла конфи
 
 def hid(hotkay, type):
     global map
-
     if type == "keyboard":
         keys = [getattr(Keycode, k.strip().split(".")[1]) for k in hotkay.split(",")]
         kbd.send(*keys)
-
     elif type == "mapp":
         map = (map + 1) % 4
-
     elif type == "mapm":
         map = (map - 1) % 4
 
@@ -139,4 +136,3 @@ while True:
             if map==2:hid(hot_map2[i],hot_map_type2[i]);led(led2)
             if map==3:hid(hot_map3[i],hot_map_type3[i]);led(led3)
             time.sleep(0.2)
-    
