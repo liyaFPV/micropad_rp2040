@@ -1,0 +1,9 @@
+{
+    "macros":{
+        "winR":["Keycode.GUI","Keycode.R"],
+        "winD":["Keycode.GUI","Keycode.D"],
+        "altTAB":["Keycode.LEFT_ALT","Keycode.TAB"]
+    },
+    "hotmap0":["winR","winD","altTAB"],
+    "hotmap0_type":["clik","clik","clik","p","m"]
+}
